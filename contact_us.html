@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+
+        <title>49th Security Division</title>
+      
+        <!--this is linking the css stylingwebsite file to this-->
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <header>
+            <h1>Contact us</h1>
+        </header>
+        
+        <main>
+        
+            <!--Navigation bar-->
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact_us.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+            <br>
+            
+            <!--This is a short paragraph to describe what the page is about-->
+            <p>Below you will find an area where you can leave enter in your personal information and email to recieve our newsletter. This newsletter will be emailed to you every money to let you know what activities that our organization is participating in! If you are interested in joining this group there is another section where you can fill in your request to be a member of this great organization!</p>
+            
+            <!--First form, includes first name, last name, and email text box-->
+            <form action="#">
+                <!--first name textbox-->
+                <label id="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname" placeholder="Enter Here" min="2">
+                <br><br>
+                
+                <!--last name textbox-->
+                <label id="lastname">Last Name: </label>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter Here" min="2">
+                <br><br>
+                
+                <!--email textbox, email input validation with css styling-->
+                <label for= "Email"> Email Address:</label>
+				<input type="email" id="Email" name="Email" size="30" placeholder="Enter Here">
+                <br><br>
+                
+                <!-- Submit Button -->
+				<input type="submit" class="button" value="Send Information">
+                
+            </form>
+            
+            
+            <p>If you wish to become a member of this organization please fill out these forms!</p>
+            <br><br>
+            
+            <!--Second form-->
+            <form action="#">
+                <label id="classlevel">Class:</label>
+				<!--Drop down list-->
+                <select name="classlevel" id="classlevel">
+					<option value="Freshman">Freshman</option>
+					<option value="Sohphomore">Sohphomore</option>
+					<option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+				</select>
+                <br><br>
+                
+                <!-- Radio Buttons for Gender -->
+				<label for="male"> Male</label>
+                <input type="radio" name="Gender" value="Male" id="male">
+				<br>
+                <label for="female"> Female</label>
+				<input type="radio" name="Gender" value="Female" id="female">
+				<br><br>
+                
+                <!--Text area to describe why they are joining, required input validation included-->
+                <label for="join">Reason for joining: </label>
+                <textarea id="join" name="join" placeholder="Enter Here" rows="3" cols="3" required></textarea>
+                <br><br>
+                
+                <input type="submit" class="button" value="Send Information">
+				
+            </form>
+            
+            
+        </main>
+        
+        <footer>
+        
+        </footer>
+    
+    </body>    
+  
+    
+</html>

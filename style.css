@@ -1,0 +1,95 @@
+/*Navigation bar*/
+#nav {
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 5px o;
+    background-color: lightgray;
+}
+#nav a {
+    width: 150px;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+/*When hovering over the link it will turn gray and 
+cursor will turn into a pointer indicating its a link*/
+#nav li a:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+/*body styles*/
+header {
+    text-align: center;
+}
+
+/*edits the images on the home page to be centered-*/
+.home_img {
+    width: 200px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*This is for when invalid input is entered into a form*/
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 1px solid black;
+}
+
+/*styling on the forms*/
+label {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+}
+
+/*this styles text, select, email, and text area forms to appear more attractive*/
+input[type=text], select, input[type=email], textarea{
+    width: 350px;
+    padding: 8px;
+    margin: 1px 0;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/*this styles the submit form to appear more attractive*/
+input[type=submit] {
+    width: 200px;
+    background-color: #64B62F;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*changes the color of submit button when hovered over*/
+input[type=submit]:hover {
+    background-color: #85FB39;
+}
